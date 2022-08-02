@@ -1,0 +1,192 @@
+body {
+  font-family: 'Montserrat';
+}
+
+h3 {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h1 {
+  font-family: 'Montserrat, sans-serif';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+h2 {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  line-height: 3.5rem;
+  padding: 20px;
+}
+
+/*id*/
+#title {
+  background: #00D7FF;
+  color: white;
+  font-family: 'Ubuntu';
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+#features i {
+  color: #ef8172;
+}
+
+#features i:hover {
+  color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 5% 10%
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #5800FF;
+  color: white;
+}
+
+
+
+
+.testimonial-image {
+  margin: 20px;
+  width: 15%;
+  border-radius: 100%;
+}
+
+#press {
+  text-align: center;
+  background-color: #5800FF;
+
+
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/*Navigation Bar*/
+.navbar {
+  font-size: 1.7rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 10px 25px 10px 25px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/*NAVBAR Image*/
+.navbar-image {
+  width: 70%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 20%;
+}
+
+.navbar-title {
+  font-family: 'Ubuntu';
+  font-weight: bolder;
+  width: 70%;
+  margin: 50px 0 0 0;
+}
+/*Condition for mobile size */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .navbar-title {
+    margin: 30px 0 20px 60px;
+  }
+
+  .navbar-image {
+    transform: rotate(0);
+    position: static;
+  }
+  .testimonial-image{
+    width: 30%;
+  }
+}
+
+/*Buttons NAV*/
+.btn {
+  margin: 10px 10px 15px 10px;
+}
+
+/*Pricing*/
+.card-title {
+  font-family: 'Oswald';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card1:hover {
+  background: #00ffb6;
+  border: 1px solid #00ffb6;
+}
+
+.card1:hover .list-group-item {
+  background: #00ffb6;
+}
+
+.card2:hover {
+  background: #00C9FF;
+  border: 1px solid #00C9FF;
+}
+
+.card2:hover .list-group-item {
+  background: #00C9FF;
+}
+
+.card3:hover {
+  background: #ff95e9;
+  border: 1px solid #ff95e9;
+}
+
+.card3:hover .list-group-item {
+  background: #ff95e9;
+}
+
+.card:hover .btn-outline-dark {
+  color: white;
+  background: #212529;
+}
+
+/*cta*/
+#cta {
+  background-color: #3AB0FF;
+  color: white;
+  text-align: center;
+  padding: 8rem;
+  margin: 0 0 7rem 0;
+}
+
+.cta-header {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*Footer*/
+#footer {
+  background-color: white;
+}
+
+#footer p {
+  text-align: center;
+  color: #8f8f8f;
+}
