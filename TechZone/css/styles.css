@@ -33,11 +33,11 @@ h2 {
 }
 
 #features i {
-  color: #ef8172;
+  color: #49deff;
 }
 
 #features i:hover {
-  color: #ff4c68;
+  color: #0782cf;
 }
 
 .container-fluid {
@@ -154,12 +154,12 @@ h2 {
 }
 
 .card3:hover {
-  background: #ff95e9;
-  border: 1px solid #ff95e9;
+  background: #e241ff;
+  border: 1px solid #e241ff;
 }
 
 .card3:hover .list-group-item {
-  background: #ff95e9;
+  background: #e241ff;
 }
 
 .card:hover .btn-outline-dark {
